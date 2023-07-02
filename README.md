@@ -21,6 +21,9 @@ Similarly, all the outliers in the price/square feet column are removed using me
 When performing EDA, it's observed that there are some locations which have lower price with 3 bedrooms as compared to 2 bedrooms, which does not make business sense so all those cases
 are also removed as outliers. Outliers are also removed based on number of bathrooms/number of rooms. 
 
+![2](https://github.com/UzairSohail705/real-estate-price-prediction/assets/137323836/cefeda10-8a99-4e25-a864-bb1648c2a6f2)
+
+
 ### Model Building
 One hot encoding is done to store every unique location in a separate column. A train-test split is done to train the linear regression model. We also performed K-fold cross validation
 to measure accuracy of our linear regression model. 
@@ -28,6 +31,10 @@ to measure accuracy of our linear regression model.
 ### Model Testing
 Finally, we compare this model with different models such as Lasso () and Decision Tree to find the best model. Hyperparamter tuning is also done to find the best possible combination.
 All of this comparison has been done using GridSearchCV. 
+
+![1](https://github.com/UzairSohail705/real-estate-price-prediction/assets/137323836/48ba1ba5-e39b-4219-abc0-df66b37647f1)
+
+
 
 ## Tools/Methods/Analyses:
 -Linear Regression
